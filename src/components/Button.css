@@ -1,0 +1,81 @@
+
+  
+  .mob_btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #fff;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 50px;
+    width: 140px;
+    height: 60px;
+    border-radius: 50px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+
+
+  }
+
+  .mob_btn.active {
+    background-color: #499bd7; /* Background color for active button */
+  }
+
+  .sm-screen-only {
+    display: none; 
+  }
+
+
+
+.showcase-container {
+  display: none;
+}
+
+
+  
+  @media only screen and (min-width: 0px) and (max-width: 768px) {
+
+    
+    .sm-screen-only {
+      display: flex; 
+      width: 450px;
+    }
+
+  .mob_btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #fff;
+    color: #499bd7;
+    cursor: pointer;
+    margin-left: 0px;
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    position: relative;
+    top: 120px;
+    left: 40px;
+
+  }
+
+   .showcase-container {
+    display: block;
+  }
+
+  .active{
+    background-color: #499bd7;
+    color: #fff;
+  }
+
+  }
+
+  /* Button.css */
+.sm-screen-only {
+    display: none; /* Initially hide the button container */
+  }
+  
+  /* Show the button container only on screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .sm-screen-only {
+      display: block; /* Show the button container */
+    }
+  }
+  
+   

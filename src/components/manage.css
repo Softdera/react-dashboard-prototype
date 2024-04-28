@@ -1,0 +1,63 @@
+.manage_top{
+    text-align: left;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+
+.angle_button{
+    background-color: #3326AE;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    width: 120px;
+    height: 35px;
+    padding: 5px 15px;
+    transition: width 0.3s ease;
+
+}
+
+.fa-angle-right{
+    position: relative;
+    bottom: 40px;
+    left: 50px;
+}
+
+.Lily{
+    font-size: 10px;
+    text-align: left;
+    position: relative;
+    right: 90px;
+    top: 3px;
+}
+
+.manage-mid{
+    text-align: left;
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+.fiveDays{
+    font-size: 10px;
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.Manage_Contain{
+    padding-bottom: 20px;
+}
+
+.icns{
+    font-size: 11px;
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+
+.fUser{
+  height: 40px;
+  text-align:start;
+}

@@ -1,0 +1,83 @@
+.Customers{
+    font-size: 15px;
+    position: relative;
+    bottom:45px;
+    left: 45px;
+}
+
+.num_col{
+    border: solid 3px #fff;
+    border-radius: 20px;
+    background-color: #fff;
+    height: 93.83px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+    width: 200px;
+
+}
+
+.divActive{
+    background-color: #f23e3e;
+    color: #fff;
+    border: solid 3px #f23e3e;
+    width: 220px;
+
+}
+  
+  .number_img{
+    width: 90px;
+  height: 70.5px;
+  position: relative;
+  top: 10px;
+  right: 45.5px;
+  gap: 0px;
+  opacity: 0px;
+  
+  }
+
+
+@media screen and (max-width: 768px) {
+
+    .num_col{
+        height: 180.83px;
+        width: 100px;
+        margin-left: 10px;
+
+    }
+
+    
+    .divActive{
+        background-color: #f23e3e;
+        color: #fff;
+        border: solid 3px #f23e3e;
+        width: 130px;
+    
+    }
+
+
+    .number_img{
+        width: 96px;
+      height: 120.5px;
+      position: relative;
+      top: 46px;
+      left: 0.5px;
+      
+      }
+
+      .Customers{
+        font-size: 15px;
+        position: relative;
+        bottom :120px;
+        left: 5px;
+    }
+
+    
+
+    .Num_box{
+        width: 194.5px;
+      height: 70.85px;
+      
+      
+      }
+
+
+}

@@ -1,0 +1,186 @@
+.flex_SvG{
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+
+}
+
+
+.reactLogo{
+    position: relative;
+    top: 10px;
+    right: 20px;
+  
+  }
+
+  .isActive {
+    border: none !important;
+    width: 100px !important;
+    height: 100px !important;
+    background-color: #fff !important; /* Change this to the desired background color for active buttons */
+    z-index: 2 !important;
+    border-radius: 20px !important;
+}
+
+.middlePart{
+    position: relative;
+    top: 200px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{
+    position: relative;
+    top: 550px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomButton{
+    width: 50px;
+    background-color: #3326AE;
+    border: none;
+    position: relative;
+    left: 30px;
+    bottom: 100px;
+}
+
+.houseBtn{
+    width: 50px;
+    background-color: #3326AE;
+    border: none;
+    position: relative;
+    left: 30px;
+}
+
+
+
+.clockBtn{
+    width: 50px;
+    background-color: #3326AE;
+    border: none;
+    position: relative;
+    top: 50px;
+    left: 30px;
+
+
+}
+
+
+.envelopeBtn{
+    width: 50px;
+    background-color: #3326AE;
+    border: none;
+    position: relative;
+    top: 100px;
+    left: 30px;
+
+}
+
+
+.radioBtn{
+    width: 50px;
+    background-color: #3326AE;
+    border: none;
+    position: relative;
+    top: 150px;
+    left: 30px;
+
+} 
+
+
+@media screen and (max-width: 768px) {
+
+.flex_SvG{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+.middlePart{
+    position: absolute;
+    top: 25px;
+    left: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+}
+
+
+
+.houseBtn{
+    width: 30px;
+    background-color: #3326AE;
+    border: none;
+    position: relative;
+    top: 0px;
+    left: 0;
+  
+}
+
+
+.clockBtn{
+    width: 30px;
+    background-color: #3326AE;
+    border: none;
+    position: relative;
+    top: 0px;
+    left: 0;
+
+
+}
+
+
+.envelopeBtn{
+    width: 30px;
+    background-color: #3326AE;
+    border: none;
+    position: relative;
+    top: 0px;
+    left: 0;
+  
+
+}
+
+
+.radioBtn{
+    width: 30px;
+    background-color: #3326AE;
+    border: none;
+    position: relative;
+    top: 0px;
+    left: 0;
+   
+} 
+
+
+
+
+.bottomButton{
+    display: none;
+}
+
+
+.isActive {
+    border: none !important;
+    width: 100px !important;
+    height: 50px !important;
+    background-color: #fff !important; /* Change this to the desired background color for active buttons */
+    z-index: 2 !important;
+    border-radius: 20px !important;
+    position: relative;
+    bottom: 5px !important;
+}
+
+
+
+
+
+
+
+
+}

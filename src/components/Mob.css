@@ -1,0 +1,146 @@
+
+.btnn{
+    background-color: #3326AE;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    bottom: 100px;
+    left: 120px;
+    color: #fff;
+}
+
+.ten{
+    font-size: 11px;
+    position: relative;
+    bottom: 2.5px;
+}
+
+
+.myCard{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.Atm_Card{
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.Trans_Container{
+    margin-bottom: 30px;
+}
+
+.Transaction{
+    font-size: 16px;
+}
+
+.plus_red{
+    background-color: #FF0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 30px;
+}
+
+.para{
+    font-size: 9px;
+    margin-bottom: 35px;
+}
+
+.parah{
+    font-size: 11px;
+    margin-bottom: 35px;
+
+}
+
+
+.percentage{
+    height: 133.08px;
+    width: 132.78px;
+    position: relative;
+    top: 30px;
+    left: 70px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+
+
+    }
+    
+    .percentage_38{
+      color: #3326AE;
+      height: 75px;
+      width: 74px;
+      position: relative;
+    top: 27px;
+    left: 30px;
+      box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+    
+    }
+    
+    .thirty{
+      position: relative;
+      top: 25px;
+      left: 5px;
+      
+    }
+    
+    .net_img{
+        height: 20px;
+    }
+
+
+@media screen and (max-width: 768px) {
+
+.Atm_Card{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 235px;
+}
+
+
+.btnn{
+    background-color: #3326AE;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    bottom: 100px;
+    left: 240px;
+    color: #fff;
+}
+
+
+.percentage{
+    height: 133.08px;
+    width: 132.78px;
+    position: relative;
+    top: 30px;
+    left: 190px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+
+
+    }
+    
+    .Trans_Container  {
+        display: none;
+    }
+
+    .Taxi_Container{
+        display: none;
+ 
+    }
+.Shopping_Container{
+    display: none;
+
+}
+
+}

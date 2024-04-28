@@ -1,0 +1,331 @@
+body{
+  box-sizing: border-box;
+  width: 100%;
+  background-color: aqua !important;
+  height: 900px;
+}
+
+.container{
+  display: flex;
+  border-radius: 40px;
+  margin: 10px auto 10px;
+  text-align: center;
+  background-color: #fff;
+  position: absolute;
+  top: 62.29px;
+  width: 1059.48px;
+  height: 775.6px;
+  left: 67.07px;
+  gap: 0px;
+  opacity: 0px;
+
+
+
+
+}
+
+
+.side_bar{
+  width: 15%;
+  background-color:  #3326AE;
+  border-top-left-radius: 40px;
+ border-bottom-left-radius: 40px;
+ position: relative;
+ padding-top: 50px;
+ width: 111.83px;
+height: 775.6px;
+right: 12.05px;
+gap: 0px;
+opacity: 0px;
+
+
+
+}
+
+.central {
+  padding-top: 10px;
+  background-color: #fff;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  position: relative;
+  width: 1035.87px;
+  height: 776.5px;
+  right: 55px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+.contain{
+  padding: 20px;
+  position: relative;
+  left: 55px;
+
+}
+
+.Inner_Contain{
+  height: 620.5px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.Inner_Central{
+  position: absolute;
+  width: 800.31px;
+height: 263.83px;
+gap: 0px;
+opacity: 0px;
+top: 468.56px;
+left: 1.13px;
+
+}
+
+.Stats_Container {
+  width: 800.31px;
+height: 263.83px;
+position: absolute;
+top: 240.56px;
+left: 1.13px;
+gap: 0px;
+opacity: 0px;
+background-color:#F5F5FC ;
+border-radius: 20px;
+
+
+}
+
+.mobile_container {
+  width: 265.63px;
+height: 635.65px;
+top: 100px;
+left: 863.24px;
+gap: 0px;
+opacity: 0px;
+background-color:#F5F5FC ;
+position: absolute;
+border-radius: 20px;
+}
+
+.large_view{
+  height: 635.65px;
+  width: 1000.63px;
+  position: relative;
+  bottom: 30px;
+
+}
+
+.num_container{
+  padding-top: 30px;
+  position: absolute;
+top: 98.56px;
+left: 20.13px;
+border-radius: 20px;
+width: 780.31px;
+
+
+}
+
+.Nav_Con{
+  position: absolute;
+  left: 18.13px;
+  width: 1110.31px;
+
+}
+
+
+.showcase-container {
+  display: none;
+}
+
+
+
+.Manage_Container{
+  background-color: #F5F5FC;
+  position: relative;
+  top: 50px;
+  border-radius: 20px;
+  height: 230px;
+  padding-left: 5px;
+
+
+}
+
+.Spent_Container{
+  background-color: #F5F5FC;
+  position: relative;
+  top: 50px;
+  border-radius: 20px;
+  height: 230px;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  body {
+      box-sizing: border-box;
+      width: 100%;
+      z-index: 1;
+
+    }
+  
+
+.container{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 800.6px;
+  position: absolute;
+    top: 20.47px;
+    left: 9.5px;
+    z-index: 1;
+
+
+  
+}
+
+
+
+
+.central {
+  position: relative;
+  width: 244.5px;
+height: 443.48px;
+bottom: 200.52px;
+left: 0.5px;
+gap: 0px;
+opacity: 0px;
+z-index: 1;
+
+}
+
+.side_bar{
+  border-radius: 40px;
+  width: 550px ;
+height: 80.37px;
+position: relative;
+bottom: 0.02px;
+right: 20.3px;
+gap: 0px;
+opacity: 0px;
+z-index: 2;
+
+}
+
+.contain{
+  padding: 5px;
+  position: relative;
+  left: 0px;
+  z-index: 1;
+
+}
+
+.Nav_Con{
+  position: absolute;
+  right: 25.13px;
+  width: 455.31px;
+  background-color: #fff;
+  z-index: 1;
+
+}
+
+.button-contain {
+ 
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  top: 97.56px;
+left: 27.13px;
+  
+}
+
+
+.mobile_container {
+  width: 500.63px;
+height: 300.65px;
+top: 200px;
+left: 14.24px;
+gap: 0px;
+opacity: 0px;
+background-color:#F5F5FC ;
+position: absolute;
+border-radius: 20px;
+}  
+
+.num_container{
+  padding-top: 15px;
+  position: absolute;
+top: 200.56px;
+left: 35.13px;
+  width: 455.31px;
+  z-index: 1;
+
+}
+
+.Stats_Container {
+  width: 500.31px;
+height: 263.83px;
+position: absolute;
+top: 440.56px;
+left: 10.13px;
+background-color: #fff;
+z-index: 1;
+
+}
+  
+ 
+.Manage_Container{
+display: none; 
+z-index: 1;
+
+
+}
+
+.Spent_Container{
+  display: none;
+  z-index: 1;
+
+
+}
+ 
+
+
+  
+.Inner_Central{
+  position: absolute;
+  width: 244.31px;
+height: 0.83px;
+gap: 0px;
+opacity: 0px;
+bottom: 500.56px;
+left: 1.13px;
+z-index: 1;
+
+}
+  
+
+.Inner_Contain{
+  height: 400.5px;
+  z-index: 1;
+}
+  
+.large_view{
+  height: 0.65px;
+  width: 243.63px;
+  position: relative;
+  bottom: 30px;
+
+}
+  
+  
+  
+  
+  
+  
+  
+  }
