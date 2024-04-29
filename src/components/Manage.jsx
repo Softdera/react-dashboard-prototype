@@ -1,7 +1,6 @@
 import React from 'react';
 import '../index.css';
 import './manage.css';
-import Button from './Button'
 
 
 

@@ -1,5 +1,4 @@
 import React from 'react';
-//3import Navbar from './NavBar'
 import SideBar from "./SideBar";
 import Central from "./Central";
 import '../index.css';
@@ -7,7 +6,7 @@ import '../index.css';
 
 
 
-function App() {
+function Home() {
   return (
     
     <div className='container'>
@@ -29,4 +28,4 @@ function App() {
   )
 }
 
-export default App;
+export default Home;

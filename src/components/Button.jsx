@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import '../index.css';
 import './Button.css'; 
-import SideBar from "./SideBar";
-import Navbar from './NavBar';
 import Mob from './Mobile';
 import Number from './Number';
 import Stats from './Statistics';
