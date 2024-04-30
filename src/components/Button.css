@@ -36,7 +36,7 @@
     
     .sm-screen-only {
       display: flex; 
-      width: 450px;
+      width: 350px;
     }
 
   .mob_btn {
@@ -46,12 +46,12 @@
     color: #499bd7;
     cursor: pointer;
     margin-left: 0px;
-    width: 120px;
+    width: 150px;
     height: 60px;
     border-radius: 20px;
     position: relative;
-    top: 120px;
-    left: 40px;
+    top: 50px;
+    left: 48px;
 
   }
 
