@@ -5,7 +5,9 @@ import Mob from './Mobile';
 import Number from './Number';
 import Stats from './Statistics';
 
-function Button() {
+
+const Button = () => {
+
     const [activeButton, setActiveButton] = useState('button1'); 
 
   const [activeComponents, setActiveComponents] = useState({

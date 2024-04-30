@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse, faClock,faRadio, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './SideBar.css'
 
 
-function SideBar() {
+const SideBar = () => {
+
     const [activeButton, setActiveButton] = useState('house');
 
     const handleButtonClick = (buttonName) => {
@@ -20,32 +23,37 @@ function SideBar() {
         className={`houseBtn ${activeButton === 'house' ? 'isActive' : ''}`}
         onClick={() => handleButtonClick('house')}
       >
-        <i className="fa-solid fa-house my-1" 
-        style={{ color: activeButton === 'house' ? 'red' : '#fff' }}  />
+           <FontAwesomeIcon icon={faHouse} className="fa-solid fa-house my-1" 
+        style={{ color: activeButton === 'house' ? 'red' : '#fff' }}/>
+
       </button>
 
       <button
+      
         className={`clockBtn ${activeButton === 'clock' ? 'isActive' : ''}`}
         onClick={() => handleButtonClick('clock')}
       >
-        <i className="fa-solid fa-clock mx-1" 
-        style={{ color: activeButton === 'clock' ? 'red' : '#fff' }}  />
+         <FontAwesomeIcon icon={faClock} className="fa-solid fa-clock my-1" 
+        style={{ color: activeButton === 'clock' ? 'red' : '#fff' }}/>
+        
       </button>
 
       <button
         className={`envelopeBtn ${activeButton === 'envelope' ? 'isActive' : ''}`}
         onClick={() => handleButtonClick('envelope')}
       >
-        <i className="fa-solid fa-envelope mx-1"
-         style={{ color: activeButton === 'envelope' ? 'red' : '#fff' }} />
+          <FontAwesomeIcon icon={faEnvelope} className="fa-solid fa-envelope my-1" 
+        style={{ color: activeButton === 'envelope' ? 'red' : '#fff' }}/>
+        
       </button>
 
       <button
         className={`radioBtn ${activeButton === 'radio' ? 'isActive' : ''}`}
         onClick={() => handleButtonClick('radio')}
       >
-        <i className="fa-solid fa-radio mx-1" 
-        style={{ color: activeButton === 'radio' ? 'red' : '#fff' }} />
+          <FontAwesomeIcon icon={faRadio} className="fa-solid fa-radio my-1" 
+        style={{ color: activeButton === 'radio' ? 'red' : '#fff' }}/>
+       
       </button>
     </div>
      

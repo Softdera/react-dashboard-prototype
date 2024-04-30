@@ -16,11 +16,6 @@ body{
   width: 1059.48px;
   height: 775.6px;
   left: 67.07px;
-  gap: 0px;
-  opacity: 0px;
-
-
-
 
 }
 
@@ -35,8 +30,6 @@ body{
  width: 111.83px;
 height: 775.6px;
 right: 12.05px;
-gap: 0px;
-opacity: 0px;
 
 
 
@@ -51,8 +44,6 @@ opacity: 0px;
   width: 1035.87px;
   height: 776.5px;
   right: 55px;
-  gap: 0px;
-  opacity: 0px;
 
 }
 
@@ -65,16 +56,12 @@ opacity: 0px;
 
 .Inner_Contain{
   height: 620.5px;
-  gap: 0px;
-  opacity: 0px;
 }
 
 .Inner_Central{
   position: absolute;
   width: 800.31px;
 height: 263.83px;
-gap: 0px;
-opacity: 0px;
 top: 468.56px;
 left: 1.13px;
 
@@ -86,8 +73,6 @@ height: 263.83px;
 position: absolute;
 top: 240.56px;
 left: 1.13px;
-gap: 0px;
-opacity: 0px;
 background-color:#F5F5FC ;
 border-radius: 20px;
 
@@ -99,8 +84,6 @@ border-radius: 20px;
 height: 635.65px;
 top: 100px;
 left: 863.24px;
-gap: 0px;
-opacity: 0px;
 background-color:#F5F5FC ;
 position: absolute;
 border-radius: 20px;
@@ -198,8 +181,6 @@ code {
 height: 443.48px;
 bottom: 200.52px;
 left: 0.5px;
-gap: 0px;
-opacity: 0px;
 z-index: 1;
 
 }
@@ -211,8 +192,6 @@ height: 80.37px;
 position: relative;
 bottom: 0.02px;
 right: 20.3px;
-gap: 0px;
-opacity: 0px;
 z-index: 2;
 
 }
@@ -250,8 +229,6 @@ left: 27.13px;
 height: 300.65px;
 top: 200px;
 left: 14.24px;
-gap: 0px;
-opacity: 0px;
 background-color:#F5F5FC ;
 position: absolute;
 border-radius: 20px;
@@ -300,8 +277,6 @@ z-index: 1;
   position: absolute;
   width: 244.31px;
 height: 0.83px;
-gap: 0px;
-opacity: 0px;
 bottom: 500.56px;
 left: 1.13px;
 z-index: 1;
@@ -321,11 +296,6 @@ z-index: 1;
   bottom: 30px;
 
 }
-  
-  
-  
-  
-  
   
   
   }

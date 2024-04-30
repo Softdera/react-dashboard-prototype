@@ -3,8 +3,8 @@ import '../index.css';
 import './Num.css'
 
 
+const Number = () => {
 
-function Number() {
     const [activeDiv, setActiveDiv] = useState('Orders');
  
     const handleButtonClick = (divName) => {

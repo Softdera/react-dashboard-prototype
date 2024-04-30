@@ -2,8 +2,8 @@ import React from 'react';
 import '../index.css';
 import './Stats.css'
 
+const Stats = () => {
 
-function Stats() {
   return (
     
     <div className='Stats_Container'>

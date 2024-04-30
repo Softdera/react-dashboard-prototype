@@ -4,7 +4,10 @@ import Bell from '../assets/bell.svg'
 import '../index.css';
 import './Navbar.css'; // Import your CSS file for styling
 
-function Navbar() {
+
+
+const Navbar = () => {
+
   return (
       
 
@@ -23,9 +26,7 @@ function Navbar() {
                         alt='user_image'
                         className='user'></img>
                     
-                    <div class="collapse 
-                    navbar-collapse" 
-                    id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <form className="d-flex Search"
                         role="search">
                         <i class="fa-solid 

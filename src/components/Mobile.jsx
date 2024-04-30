@@ -3,7 +3,9 @@ import '../index.css';
 import './Mob.css';
 import '../assets/AtmCard.jpeg';
 
-function Mob() {
+
+const Mob = () => {
+
   const [showDownPart, setShowDownPart] = useState(false);
 
   useEffect(() => {

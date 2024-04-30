@@ -2,7 +2,8 @@ import './App.css';
 import Home from './components/Home';
 
 
-function App() {
+const App = () => {
+
   return (
     <div className="App">
       <Home />

@@ -8,7 +8,12 @@ import Spent from './Spent';
 import Button from './Button';
 import '../index.css';
 
-function Central() {
+
+
+
+
+const Central = () => {
+
   // Determine if the screen size is smaller than 768px
   const isSmallerScreen = window.innerWidth <= 768;
 

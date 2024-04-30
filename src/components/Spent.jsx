@@ -3,8 +3,8 @@ import '../index.css';
 import './Spent.css'
 
 
+const Spent = () => {
 
-function Spent() {
   return (
     
     <div className='Spent_Container'>

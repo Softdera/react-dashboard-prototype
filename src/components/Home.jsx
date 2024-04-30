@@ -6,7 +6,7 @@ import '../index.css';
 
 
 
-function Home() {
+const Home = () => {
   return (
     
     <div className='container'>

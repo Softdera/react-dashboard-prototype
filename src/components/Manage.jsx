@@ -3,8 +3,8 @@ import '../index.css';
 import './manage.css';
 
 
+const Manage = () => {
 
-function Manage() {
   return (
     
     <div className='Manage_Container'>
