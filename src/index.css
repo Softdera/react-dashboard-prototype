@@ -160,7 +160,7 @@ code {
 .container{
   display: flex;
   flex-direction: column-reverse;
-  width: 555px !important;
+  width: 570px !important;
   height: 800.6px;
   position: absolute;
     top: 20.47px;
@@ -185,7 +185,7 @@ z-index: 1;
 
 .side_bar{
   border-radius: 40px;
-  width: 550px ;
+  width: 570px ;
 height: 80.37px;
 position: relative;
 bottom: 0.02px;
