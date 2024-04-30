@@ -103,7 +103,7 @@
 .middlePart{
     position: absolute;
     top: 25px;
-    left: 14px;
+    left: 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
