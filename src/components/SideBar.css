@@ -102,7 +102,7 @@
 
 .middlePart{
     position: absolute;
-    top: 01px;
+    top: 20px;
     left: 16px;
     display: flex;
     flex-direction: row;
@@ -172,8 +172,8 @@
     background-color: #fff !important; /* Change this to the desired background color for active buttons */
     z-index: 2 !important;
     border-radius: 20px !important;
-    position: relative;
-    bottom: 5px !important;
+    position: absolute;
+    top: 5px !important;
 }
 
 .reactLogo{
