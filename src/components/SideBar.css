@@ -172,7 +172,7 @@
     background-color: #fff !important; /* Change this to the desired background color for active buttons */
     z-index: 2 !important;
     border-radius: 20px !important;
-    position: absolute;
+    position: relative;
     top: 5px !important;
 }
 
