@@ -95,6 +95,8 @@
 .flex_SvG{
     display: flex;
     flex-direction: row;
+    position: relative;
+    top: 20px;
 
 
 }
